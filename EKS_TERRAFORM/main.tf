@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "us-east-1"
-}
-
 # Create IAM policy document for EKS cluster role
 data "aws_iam_policy_document" "assume_role" {
   statement {
